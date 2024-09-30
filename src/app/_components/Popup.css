@@ -1,0 +1,34 @@
+.modal {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+  color: black;
+  text-align: center;
+}
+
+.modal-container {
+  background-color: #fefffe;
+  position: relative;
+  margin: 10% auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.modal-container button {
+  background-color: #f44336;
+  position: absolute;
+  top: -30px;
+  right: -20px;
+  z-index: 10;
+  color: white;
+  padding: 10px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+}
